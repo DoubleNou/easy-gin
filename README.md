@@ -11,7 +11,7 @@
 ```
 ### 拉取源码
 ```sh
-# cd $GOPATH/src && git clone git@github.com:biggercat/easy-gin.git && cd easy-gin
+# cd $GOPATH/src && git clone git@github.com:sqrtcat/easy-gin.git && cd easy-gin
 ```
 ### 使用 govendor 安装依赖包
 ```sh
