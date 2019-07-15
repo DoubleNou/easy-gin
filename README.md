@@ -204,9 +204,12 @@ func RegisterRoutes(router *gin.Engine) {
 # rizla main.go
 ```
 ### 注意
-因 golang 的包载入机制问题，项目名如需改为其他，需修改框架内的部分包的代码 `easy-gin` to `your-projectName`
-main.go<br>
-server/server.go<br>
-routes/router.go<br>
-server/server.go<br>
+因 golang 的包载入机制问题，项目名如需改为其他，需修改框架内的部分包的载入路径 `easy-gin` to `your-projectName`
+```
+main.go
+server/server.go
+routes/router.go
+server/server.go
 models/*
+```
+go 1.11 后大家可以改用 gomod 模式
